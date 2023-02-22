@@ -302,7 +302,7 @@ modules = [
 
 [[package]]
 org = "labsavvytestorg"
-name = "testcon"
+name = "sourceconnect"
 version = "0.1.0"
 dependencies = [
 	{org = "ballerina", name = "http"},
@@ -310,7 +310,7 @@ dependencies = [
 	{org = "wso2healthcare", name = "healthcare.fhir.r4"}
 ]
 modules = [
-	{org = "labsavvytestorg", packageName = "testcon", moduleName = "testcon"}
+	{org = "labsavvytestorg", packageName = "sourceconnect", moduleName = "sourceconnect"}
 ]
 
 [[package]]

@@ -301,19 +301,6 @@ modules = [
 ]
 
 [[package]]
-org = "labsavvytestorg"
-name = "sourceconnect"
-version = "0.1.0"
-dependencies = [
-	{org = "ballerina", name = "http"},
-	{org = "ballerinai", name = "observe"},
-	{org = "wso2healthcare", name = "healthcare.fhir.r4"}
-]
-modules = [
-	{org = "labsavvytestorg", packageName = "sourceconnect", moduleName = "sourceconnect"}
-]
-
-[[package]]
 org = "wso2healthcare"
 name = "healthcare.base"
 version = "0.1.3"
@@ -346,6 +333,19 @@ modules = [
 	{org = "wso2healthcare", packageName = "healthcare.fhir.r4", moduleName = "healthcare.fhir.r4"},
 	{org = "wso2healthcare", packageName = "healthcare.fhir.r4", moduleName = "healthcare.fhir.r4.parser"},
 	{org = "wso2healthcare", packageName = "healthcare.fhir.r4", moduleName = "healthcare.fhir.r4.terminology"}
+]
+
+[[package]]
+org = "wso2healthcare"
+name = "sourceconnect"
+version = "0.1.0"
+dependencies = [
+	{org = "ballerina", name = "http"},
+	{org = "ballerinai", name = "observe"},
+	{org = "wso2healthcare", name = "healthcare.fhir.r4"}
+]
+modules = [
+	{org = "wso2healthcare", packageName = "sourceconnect", moduleName = "sourceconnect"}
 ]
 
 

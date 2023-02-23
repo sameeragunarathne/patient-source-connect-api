@@ -1,5 +1,5 @@
 [package]
-org = "labsavvytestorg"
+org = "wso2healthcare"
 name = "sourceconnect"
 version = "0.1.0"
 distribution = "2201.3.1"
